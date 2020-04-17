@@ -1,0 +1,39 @@
+.info {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.info__content {
+  background: white;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  border-radius: 5px;
+  min-height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.info__list {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.info__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.info__source {
+  justify-content: center;
+}
+
+.info__link {
+  text-decoration: none;
+  display: inline-block;
+  color: #999;
+}
