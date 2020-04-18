@@ -33,13 +33,13 @@
 }
 
 .about_position {
-  font-size: 15px;
+  font-size: 16px;
   color: #999;
 }
 
 .about__description {
   text-align: justify;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 30px;
 }
 

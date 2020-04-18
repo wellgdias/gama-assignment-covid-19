@@ -1,5 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Poppins:400, 700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
 
 * {
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
 .header {
   background: #34d6c6;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   padding: 5px;
   position: relative;
@@ -34,19 +34,22 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
+  margin-left: 5px;
 }
 
 .header__name {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 20px;
+  margin: 2px;
 }
 
 .header__icon {
-  font-size: 45px;
+  font-size: 25px;
   color: #ffffff;
   border: none;
   outline: none;
-  padding: 0 3px;
+  margin: 2px;
+
 }
 
 .header__icon:hover {
@@ -57,7 +60,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin: 5px;
+  margin: 2px;
 }
 
 .header_menu {
@@ -66,7 +69,7 @@ body {
 
 .header__item {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -78,7 +81,7 @@ body {
 }
 
 .content {
-  height: 572px;
+  height: 674px;
 }
 .footer {
   display: flex;
@@ -90,8 +93,8 @@ body {
   left: 0;
   width: 100%;
   margin: auto;
-  height: 45px;
-  margin: 0 auto;
+  height: 40px;
+  margin: 0;
   color: #ffffff;
   background: #34d6c6;
 }

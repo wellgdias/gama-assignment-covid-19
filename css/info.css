@@ -17,6 +17,7 @@
 }
 
 .info__list {
+  width: 100%;
   list-style: none;
   padding: 0 15px;
 }

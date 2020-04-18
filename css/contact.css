@@ -16,6 +16,7 @@ textarea {
   height: 90px;
   resize: none;
 }
+
 input[type="submit"] {
   display: block;
   background-color: #34d6c6;
